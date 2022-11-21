@@ -1,0 +1,156 @@
+#div1 {
+    background-color: pink;
+    height: 750px;
+    
+    flex: 1;
+    transition: width, 1s;
+
+}
+#div1:hover {
+    flex: 4;
+    cursor: pointer;
+}
+
+
+#div2 {
+    background-color: dodgerblue;
+
+    flex: 1;
+
+    transition: width, 1s;
+}
+#div2:hover {
+    flex: 4;
+    cursor: pointer;
+    
+}
+
+#div3 {
+    background-color: yellow;
+    height: 750PX;
+
+    flex:1;
+    transition: width,1s;
+}
+#div3:hover {
+    flex: 4;
+    cursor: pointer;
+    
+}
+.container {
+    display: flex;
+    
+}
+h1 {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+#what{
+    width: 80%;
+    height: 60%;
+        }
+.intro {
+    font-size:20px;
+    font-family:sans-serif;
+}
+#head {
+    font-size: 40px;
+    font-family:sans-serif;
+    
+}
+.menu {
+    z-index: 10;
+    top: 10px;
+    right: 130px;
+    list-style: none;
+    position:fixed;
+    
+    font-family: fantasy;
+}
+.links {
+    float: right;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:9px;
+    padding-right:9px;
+    font-size:25px;
+}
+.links :active{
+    color: #fff;
+    text-decoration: none;
+}
+.links :link{
+    color: #fff;
+    text-decoration: none;
+}
+.links :visited{
+    color: #fff;
+    text-decoration: none;
+}
+.links:hover{
+    background-color: rgb(5, 127, 250);
+    font-size: 30px;
+}
+h1 {
+    font-size: 40px;
+    font-family:sans-serif;
+    color:#fff;
+}
+p {
+    font-family:sans-serif;
+    font-size:20px;
+    color:#fff;
+}
+#main2 {
+    margin-right: 50%;
+}
+#img3 {
+    height:500px;
+}
+body {
+    background-color:black
+}
+#dark {
+    font-size: 30px;
+    color:black;
+    background-color:white;
+    border-radius:5px;
+
+}
+#light {
+    font-size: 30px;
+    color:black;
+    background-color:white;
+    border-radius:5px;
+    float:right;
+}
+.a {
+    color:black;
+    font-size:30px;
+    text-decoration:none;
+    font-family: sans-serif;
+    text-decoration: bold;
+}
+
+#foot {
+    background-color:white;
+}
+#h5 {
+    color:black;
+}
+#div1:hover #h11 {
+    font-size: 45px;
+}
+#div2:hover #h12 {
+    font-size: 45px;
+}
+#div3:hover #h13 {
+    font-size: 45px;
+}
+#h11, #h12, #h13 {
+    font-size: 20px;
+    transition: font-size;
+}
